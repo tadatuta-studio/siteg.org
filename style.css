@@ -1,0 +1,357 @@
+a
+{
+    color: #f0412f;
+}
+
+a:hover
+{
+    color: #000;
+}
+
+.page
+{
+    font-family: arial;
+    line-height: 1.5;
+
+    max-width: 1200px;
+    margin: 22px auto;
+
+    background: #edc43e;
+}
+
+.page__inner
+{
+    padding-bottom: 1px;
+
+    background: #f2f2f2;
+}
+
+.header
+{
+    background: #f2f2f2;
+    background: -webkit-linear-gradient(top,  #b1bddf 0% ,#f2f2f2 100%);
+    background:    -moz-linear-gradient(top,  #b1bddf 0%, #f2f2f2 100%);
+    background:   linear-gradient(to bottom,  #b1bddf 0%, #f2f2f2 100%);
+    height: 160px;
+}
+
+.header__inner
+{
+    width: 35%;
+    height: 160px;
+    float: left;
+}
+
+.header__logo
+{
+    width: 29%;
+    height: 160px;
+    float: left;
+}
+
+.contact-info
+{
+    float: right;
+    margin: 30px 0 0;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+.contact-info__inner
+{
+    background: url(i/contact-icon.png) no-repeat 0 0;
+    padding: 0 0 0 40px;
+}
+
+.contact-info__email
+{
+    background-position: 0 4px;
+}
+
+.contact-info__phone
+{
+    background-position: 0 -30px;
+    margin: 12px 0;
+    white-space: nowrap;
+}
+
+.contact-info__city
+{
+    background-position: 0 -64px;
+    display: block;
+}
+
+.logo
+{
+    height: 160px;
+    text-align: center;
+    background: url(i/logo-siteg.png) no-repeat center 22px;
+    position: relative;
+    z-index: 1;
+}
+
+.order-site
+{
+    display: block;
+    margin: 35px 0 0;
+    padding: 12px 0;
+    width: 188px;
+    height: 58px;
+    border: 1px solid #f6cb40;
+    border-radius: 6px;
+    background: #f2dc5f;
+    background: -webkit-linear-gradient(top,  #e7c949 0% ,#f2dc5f 100%);
+    background:    -moz-linear-gradient(top,  #e7c949 0%, #f2dc5f 100%);
+    background:   linear-gradient(to bottom,  #e7c949 0%, #f2dc5f 100%);
+    box-shadow: 0 3px 1px #d6b83b;
+    font: 18px/20px arial;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, .5);
+    text-decoration: none;
+    color: #000;
+}
+
+.order-site:hover
+{
+    text-shadow: none;
+}
+
+.nav
+{
+    margin: 0 0 22px;
+    padding: 0;
+    line-height: 40px;
+
+    text-align: center;
+    list-style: none;
+
+    background: #edc43e;
+    box-shadow: 0 3px 4px rgba(0,0,0,.2);
+    
+    clear: both;
+}
+
+.nav_state_fixed
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    z-index: 999;
+}
+
+.nav__item
+{
+    display: inline;
+    margin: 0 8px;
+}
+
+.nav__link_state_current
+{
+    color: #000;
+
+    text-decoration: none;
+
+    cursor: default;
+}
+
+.section
+{
+    margin: 10px;
+    padding: 24px 60px;
+}
+
+.title
+{
+    margin: 0 0 12px;
+
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.portfolio-list
+{
+    padding: 0;
+    text-align: center;
+}
+
+.portfolio-list__item
+{
+    display: inline-block;
+
+    max-width: 240px;
+    margin: 0 20px 20px;
+
+    list-style: none;
+
+    text-align: center;
+}
+
+.portfolio-list__thumb
+{
+    width: 100%;
+    max-width: 240px;
+    max-height: 240px;
+}
+
+.list
+{
+    list-style: none;
+}
+
+.list_bullet_dash
+{
+    padding-left: 1.6em;
+}
+
+.list_bullet_dash .list__item
+{
+    position: relative;
+}
+
+.list_bullet_dash .list__item:before
+{
+    position: absolute;
+    left: -1.6em;
+
+    content: "—";
+
+}
+
+.contact
+{
+    position: relative;
+
+    color: #f2f2f2;
+
+    background: #f0412f;
+}
+
+.contact a
+{
+    color: #fff;
+}
+
+.contact a:hover
+{
+    color: #000;
+}
+
+.share
+{
+    position: absolute;
+    bottom: 26px;
+    right: 62px;
+}
+
+.email 
+{
+    margin: 16px 0 0;
+}
+
+.tel 
+{
+    margin: 16px 0;
+    white-space: nowrap;
+}
+
+.adr
+{
+    margin: 0 0 16px 0;
+}
+
+.social
+{
+    position: absolute;
+    right: 65px;
+    top: 80px;
+}
+
+.social__button
+{
+    float: left;
+    height: 47px;
+    width: 47px;
+    margin: 0 0 0 28px;
+    border-radius: 50%;
+    background: url(i/social.png) no-repeat;
+}
+
+.social__button:hover
+{
+    opacity: 0.5;
+}
+
+.social__button_type_vk
+{
+    background-position: -61px 0;
+}
+
+.social__button_type_facebook
+{
+    background-position: -122px 0;
+}
+
+@media only screen and (max-width: 520px) {
+    .contact-info__inner
+    {
+        padding: 0 0 0 25px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .nav_state_fixed
+    {
+        position: static;
+    }
+
+    .section
+    {
+        padding: 24px 20px;
+    }
+    
+    .header__inner,
+    .header__logo
+    {
+        width: 100%;
+    }
+    
+    .contact-info
+    {
+        float: none;
+        width: 188px;
+        margin: 30px auto 0;
+    }
+    
+    .contact-info__inner
+    {
+        padding: 0 0 0 40px;
+    }
+    
+    .order-site
+    {
+        margin: 30px auto 0;
+    }
+    
+    .social
+    {
+        position: static;
+        float: left;
+   }
+   
+   .social__button
+    {
+        margin: 0 28px 20px 0;
+   }
+   
+   .map-link
+   {
+        float: left;
+        margin: 0 20px 20px 0;
+   }
+   
+   .share
+    {
+        position: static;
+    }
+}
